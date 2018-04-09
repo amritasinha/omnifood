@@ -57,6 +57,9 @@ h1{
     
     
 }
+
+
+
 .btn-full:link,
 .btn-full:visited {
 
@@ -70,5 +73,12 @@ h1{
 .btn-ghost:visited {
     border: 1px solid #f0932b;
     color:#f0932b;
+    
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #cf6d17;
+    
     
 }
