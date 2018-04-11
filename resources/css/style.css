@@ -1,3 +1,7 @@
+/* -----------------------------*/
+/* BASIC SETUP */
+/* -----------------------------*/
+
 *{
     margin: 0;
     padding: 0;
@@ -12,29 +16,17 @@ html{
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
-
+/* -----------------------------*/
+/* REUSABLE CONTENTS */
+/* -----------------------------*/
 .row{
     max-width: 1140px;
     margin: 0 auto;
 }
 
-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    
-    height: 100vh;
-    
-}
-
-
-.hero-text-box{
-    position:absolute;
-    width: 1140px;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-}
+/* -----------------------------*/
+/* HEADINGS */
+/* -----------------------------*/
 h1{
     margin: 0;
     margin-bottom: 20px;
@@ -45,7 +37,9 @@ h1{
     word-spacing: 4px;
     letter-spacing: 1px;
 }
-
+/* -----------------------------*/
+/* BUTTONS */
+/* -----------------------------*/
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -100,4 +94,26 @@ h1{
     border: 1px solid #f0932b;
     color:#fff;
     
+}
+
+/* -----------------------------*/
+/* HEADER CONTENTS */
+/* -----------------------------*/
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    height: 100vh;
+    
+}
+
+
+.hero-text-box{
+    position:absolute;
+    width: 1140px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
