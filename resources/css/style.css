@@ -25,7 +25,7 @@ html{
 }
 
 /* -----------------------------*/
-/* HEADINGS */
+/* HEADINGS+NAVIGATION ELEMENTS*/ 
 /* -----------------------------*/
 h1{
     margin: 0;
@@ -37,6 +37,19 @@ h1{
     word-spacing: 4px;
     letter-spacing: 1px;
 }
+
+.logo{
+    height:100px;
+    width: auto;
+    float: left;
+    
+}
+.main-nav{
+    float:right;
+    list-style: none;
+}
+
+
 /* -----------------------------*/
 /* BUTTONS */
 /* -----------------------------*/
