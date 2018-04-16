@@ -2,6 +2,7 @@
 /* BASIC SETUP */
 /* -----------------------------*/
 
+/* orange color = #f0932b */
 *{
     margin: 0;
     padding: 0;
@@ -57,13 +58,20 @@ h1{
     
 }
 
-.main-nav li a {
+.main-nav li a:link,
+.main-nav li a:visited {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;/* base size 20px so 18 px/20 px = .9*/
+    border-bottom: 2px solid transparent;
     
     
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #f0932b;
+    transition: border-bottom 0.2s 
 }
 
 
