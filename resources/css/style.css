@@ -30,17 +30,28 @@ section {
 /* -----------------------------*/
 /* HEADINGS+NAVIGATION ELEMENTS*/ 
 /* -----------------------------*/
-h1{
-    margin: 0;
-    margin-bottom: 20px;
-    color: #fff;
-    font-size: 240%;
+h1,
+h2 {
+    
     font-weight: 300;
     text-transform: uppercase;
-    word-spacing: 4px;
     letter-spacing: 1px;
 }
+h1{
+   margin: 0;
+    margin-bottom: 20px;
+    color: #fff; 
+    word-spacing: 4px;
+    font-size: 240%;
+     
+}
 
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    
+}
 .logo{
     height:100px;
     width: auto;
