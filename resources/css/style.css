@@ -95,7 +95,11 @@ margin-left: 15%;
     
 }
 
-
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+    
+}
 
 
 
