@@ -229,9 +229,18 @@ header{
 /* -----------------------------*/
 
 .meals-showcase{
+    list-style: none;
+    width: 100%;
     
 }
-
+.meals-showcase li {
+    
+    display: block;
+    float:left;
+    width: 25%;
+    
+    
+}
 
 .hero-text-box{
     position:absolute;
