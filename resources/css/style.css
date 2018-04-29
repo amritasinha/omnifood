@@ -258,7 +258,7 @@ header{
 }
 
 .meal-photo img:hover{
-    transform:scale(1);
+    transform:scale(1.03);
     
 }
 .hero-text-box{
