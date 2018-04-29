@@ -257,6 +257,10 @@ header{
     transform: scale(1.15)
 }
 
+.meal-photo img:hover{
+    transform:scale(1);
+    
+}
 .hero-text-box{
     position:absolute;
     width: 1140px;
