@@ -74,10 +74,11 @@ h2:after {
     height: 2px;
 
     background-color: #f0932b;
-    content: "";
+    content:  " ";
     width: 100px;
     margin : 0 auto;
-    margin-bottom: 30px;
+    
+    margin-top: 30px;
     
 }
 
@@ -224,10 +225,15 @@ header{
     
 }
 
-/* -----------------------------*/
-/* MEALS */
-/* -----------------------------*/
 
+    
+
+/* -----------------------------*/
+/* features */
+/* -----------------------------*/   .section-features .Long-Copy{ 
+    margin-bottom: 40px;
+    
+}
 .section-meals{
     padding: 0;
 }
