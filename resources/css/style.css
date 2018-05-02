@@ -299,6 +299,17 @@ header{
 .app-screen{
     width: 40%;
     
-}  
+} 
+
+.works-step{
+    margin-bottom: 50px;
+}
+
+.works-step div {
+    
+    color: #f0932b ;
+    border: 2px solid #f0932b ;
+    display:inline-block;
+}
 
 
