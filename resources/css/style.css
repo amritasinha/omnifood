@@ -17,6 +17,21 @@ html{
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+clearfix {zoom: 1}
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: block;
+        height: 0;
+        visibility:hidden;
+    }
+
+}
+
+
+
+
+
 /* -----------------------------*/
 /* REUSABLE CONTENTS */
 /* -----------------------------*/
@@ -304,6 +319,10 @@ header{
     margin-bottom: 50px;
 }
 
+.works-step:last-of-type{
+    margin-bottom: 80px;
+    
+}
 .works-step div {
     
     color: #f0932b ;
