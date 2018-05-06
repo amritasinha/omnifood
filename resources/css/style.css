@@ -28,8 +28,17 @@ clearfix {zoom: 1}
 
 }
 
+/* -----------------------------*/
+/* LINKS */
+/* -----------------------------*/
 
-
+a:link,
+a:active {
+    color:#f0932b;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #f0932b;
+}
 
 
 /* -----------------------------*/
