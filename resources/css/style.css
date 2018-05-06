@@ -129,7 +129,13 @@ margin-left: 15%;
     margin-bottom: 10px;
 }
 
-
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #f0932b;
+    font-size: 120%;
+}
 
 .logo{
     height:100px;
