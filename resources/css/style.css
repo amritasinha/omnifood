@@ -135,6 +135,11 @@ margin-left: 15%;
     text-align: center;
     color: #f0932b;
     font-size: 120%;
+    margin-right: 10px;
+    /* secrets of aligning text and icons */
+    vertical-align: middle;
+    line-height: 120%;
+    margin-top: -5px;
 }
 
 .logo{
