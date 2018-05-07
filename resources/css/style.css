@@ -394,4 +394,11 @@ header{
     
 
 
-
+/* -----------------------------*/
+/* TESTIMONIALS*/
+/* -----------------------------*/    
+    
+.section-testimonials {
+    background-image: url(img/back-customers.jpg);
+    background-size: cover;
+}
