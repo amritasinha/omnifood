@@ -33,11 +33,18 @@ clearfix {zoom: 1}
 /* -----------------------------*/
 
 a:link,
-a:active {
+a:visited {
     color:#f0932b;
     text-decoration: none;
     padding-bottom: 1px;
     border-bottom: 1px solid #f0932b;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a: active {
+    color:#555;
+    border-bottom: 1px solid transparent;
 }
 
 
