@@ -413,8 +413,14 @@ blockquote{
 }
 
 cite{
-    font-size: 90%;
-    margin-top: 25px;
+    font-size:90%;
+    margin-top:25px;
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
     
     
