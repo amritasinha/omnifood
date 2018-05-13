@@ -285,7 +285,7 @@ header{
 }
 .meals-showcase li {
     
-    display: block;
+    display: inline;
     float:left;
     width: 25%;
     
@@ -412,15 +412,25 @@ blockquote{
     line-height:145%;
 }
 
+blockquote:before {
+ content:"\201C";
+    font-size: 400%;
+    
+}
+
 cite{
     font-size:90%;
     margin-top:25px;
 }
 
+
+
+
 cite img {
-    height: 50px;
+    height: 45px;
     border-radius: 50%;
     margin-right: 10px;
+    vertical-align: middle;
 }
     
     
